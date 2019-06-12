@@ -1,0 +1,15 @@
+{
+    "apps": [
+        {
+            "name": "server-share-test",
+            "script": "./src/start.js",
+            "watch": true,
+            "ignore_watch": [
+                "node_modules"
+            ],
+            "env": {
+                "NODE_ENV": "test"
+            }
+        }
+    ]
+}
